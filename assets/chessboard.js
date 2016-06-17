@@ -16,5 +16,9 @@ var count = 0
 
 $('.forwardBtn').click(function forward(){
   count ++
-  board[]
-}
+  if (count === 1){
+  board[6][3] = [4][3]
+  board[6][3] = '';
+  }
+  console.log('1st click')
+});

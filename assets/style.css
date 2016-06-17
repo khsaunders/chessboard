@@ -47,17 +47,16 @@
 .col-1-8--a {
   width: 12.5%;
   height: 12.5%;
+  margin-left: none;
   padding: 3em;
   background-color: #ddd; }
 
 .col-1-8--b {
   width: 12.5%;
   height: 12.5%;
+  margin-left: none;
   padding: 3em;
   background-color: gray; }
-
-p {
-  padding: .5em 1em 0 2em; }
 
 /* Pushing blocks */
 .push-1-8 {
@@ -112,5 +111,8 @@ p {
 
 h3 {
   opacity: 0; }
+
+button {
+  margin: 2em; }
 
 /*# sourceMappingURL=style.css.map */
