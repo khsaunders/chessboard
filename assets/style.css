@@ -40,6 +40,10 @@
 .push-right {
   float: right; }
 
+.col-1-1 {
+  text-align: center;
+  padding: .4em 2.6em .4em 5em; }
+
 .col-1-8--a {
   width: 12.5%;
   height: 12.5%;
@@ -51,6 +55,9 @@
   height: 12.5%;
   padding: 3em;
   background-color: gray; }
+
+p {
+  padding: .5em 1em 0 2em; }
 
 /* Pushing blocks */
 .push-1-8 {
@@ -95,9 +102,15 @@
     display: none !important;
     width: 0;
     height: 0; } }
+.container {
+  margin: 2em; }
+
 .fa {
   text-align: center;
   font-size: 2em;
-  color: blue; }
+  color: #434E63; }
+
+h3 {
+  opacity: 0; }
 
 /*# sourceMappingURL=style.css.map */
