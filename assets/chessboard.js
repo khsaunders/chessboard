@@ -125,3 +125,45 @@ $('.forwardBtn').click(function moveOne (e){
     $('#knw-2').css('display','none');
   }
 });
+
+$('.backwardBtn').click(function moveOne (e){
+    e.preventDefault
+    if (count <= 2){
+    $('#p-4').css('display', 'block')
+    $('#p-4--new').css('display','none');
+    console.log(count);
+  }
+  else if (count <= 3){
+    $('#knb-2').css('display', 'block')
+    $('#knb-2--new').css('display','none');
+    console.log(count);
+  }
+  else if (count <= 4){
+    $('#p-3').css('display', 'block')
+    $('#p-3--new').css('display','none');
+  }
+  else if (count <= 5){
+    $('#pb-5').css('display', 'block')
+    $('#pb-5--new').css('display','none');
+  }
+  else if (count <= 6){
+    $('#p-7').css('display', 'block')
+    $('#p-7--new').css('display','none');
+  }
+  else if (count <= 7){
+    $('#pb-4').css('display', 'block')
+    $('#pb-4--new').css('display','none');
+  }
+  else if (count <= 8){
+    $('#bw-2').css('display', 'block')
+    $('#bw-2--new').css('display','none');
+  }
+  else if (count <= 9){
+    $('#bb-2').css('display', 'block')
+    $('#bb-2--new').css('display','none');
+  }
+  else if (count <= 10){
+    $('#knw-2').css('display', 'block')
+    $('#knw-2--new').css('display','none');
+  }
+});
