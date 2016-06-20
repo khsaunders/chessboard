@@ -49,14 +49,64 @@
   height: 12.5%;
   margin-left: none;
   padding: 3em;
-  background-color: #ddd; }
+  background-color: #ddd;
+  position: relative; }
 
 .col-1-8--b {
   width: 12.5%;
   height: 12.5%;
   margin-left: none;
   padding: 3em;
-  background-color: gray; }
+  background-color: gray;
+  position: relative; }
+
+#p-4, #knb-2 {
+  display: block; }
+
+#p-4--new, #knb-2--new {
+  display: none; }
+
+#p-3 {
+  display: block; }
+
+#p-3--new {
+  display: none; }
+
+#pb-5 {
+  display: block; }
+
+#pb-5--new {
+  display: none; }
+
+#p-7 {
+  display: block; }
+
+#p-7--new {
+  display: none; }
+
+#pb-4 {
+  display: block; }
+
+#pb-4--new {
+  display: none; }
+
+#bw-2 {
+  display: block; }
+
+#bw-2--new {
+  display: none; }
+
+#bb-2 {
+  display: block; }
+
+#bb-2--new {
+  display: none; }
+
+#knw-2 {
+  display: block; }
+
+#knw-2--new {
+  display: none; }
 
 /* Pushing blocks */
 .push-1-8 {
